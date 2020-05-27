@@ -1,5 +1,6 @@
 import bookData from '../helpers/data/bookData.js'
 import utils from '../helpers/data/utils.js'
+import cart from './cart.js'
 
 //bookData.getBook();
 // get the book data
@@ -7,7 +8,8 @@ import utils from '../helpers/data/utils.js'
 
 const addToCartEvent =(e)=>{
   e.preventDefault();
-  console.log('this works!');
+  const book = bookData.getBook();
+  cart.addToCart(book);
 }
 
 const makeStore = () => {
