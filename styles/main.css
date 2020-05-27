@@ -1,0 +1,10 @@
+#store {
+  border: 1px solid black;
+  text-align: center;
+}
+.book-image {
+
+  width: 75%;
+  padding: 10px;
+  margin: auto;
+}
