@@ -7,4 +7,4 @@ const setCart = (book) => {
 //get the cart (for display)
 const getCart = () => cart
 
-export default ( setCart , getCart)
+export default { setCart , getCart}
